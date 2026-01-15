@@ -1,48 +1,46 @@
-# Linux & Vim Security Testing Labs
+# Linux & Vim Security Labs
 
-This repository contains **Linux-based cybersecurity lab work**, written and configured using **Vim** and standard command-line security tools.  
-The lab focuses on practical security testing, defensive configuration, and protocol analysis in a Linux environment.
+This repository is a collection of **hands-on cybersecurity labs conducted in a Linux environment**, using **Vim as the primary editor** and standard command-line security tools.
 
-All experiments were performed hands-on using Linux systems, with an emphasis on understanding *why* security controls work, not just how to configure them.
-
----
-
-## Lab Documentation
-
-The full lab report, explanations, screenshots, and demonstrations are documented here:
-
-🔗 **Google Docs Lab Report**  
-https://docs.google.com/document/d/1M4JeCPXn-9lSvlSZz3cSpwcdTbAbO_cLEFPRf1pkjEw/edit?usp=sharing
-
-This repository contains the supporting material, configurations, and command references used throughout the lab.
+The work focuses on practical testing, secure configuration, exploitation, and analysis of real security problems, rather than abstract theory.
 
 ---
 
-## What This Lab Covers
+## What This Repository Demonstrates
 
-The lab explores intrusion detection, firewall configuration, cryptography usage, network reconnaissance, and secure coding analysis on Linux systems.  
-Tools such as **Snort**, **iptables**, **OpenSSL**, **Nmap**, and **FlawFinder** are used directly from the command line, with **Vim** as the primary editor for rules, configuration files, and scripts.
+Across multiple labs, this repository covers defensive and offensive security concepts including intrusion detection, firewall design, cryptography usage, web application vulnerabilities, and adversarial attacks against AI systems.
 
-Key topics include detecting malicious traffic, designing stateless and stateful firewall rules, analyzing encryption modes (ECB vs CBC), scanning and fingerprinting hosts, and identifying common software vulnerabilities.
+All labs were executed directly on Linux systems, with configurations, rules, and scripts written and maintained using Vim. This reflects real-world workflows used in security operations and engineering.
 
 ---
 
-## Repository Structure
+## Lab Areas
 
-.
-├── reports/ # Security analysis and explanations
-├── configs/ # Snort rules and firewall rules
-├── commands/ # Linux command references
-└── screenshots/ # Lab evidence and validation
+The repository is organised into two main lab areas:
+
+### Intrusion Detection & Firewalls
+This area focuses on detecting malicious traffic, controlling network access, and analysing traffic behaviour using Snort and iptables.
+
+### Web & AI Security
+This area explores web application vulnerabilities such as SQL injection and cross-site scripting, and includes security analysis of machine learning models under adversarial attack.
+
+Each lab area contains its own README with detailed explanations and links to full lab reports.
+
+---
+
+## Documentation
+
+Each lab includes a full Google Docs report linked inside its folder. These documents contain detailed explanations, screenshots, evidence, and analysis supporting the hands-on work.
 
 ---
 
 ## Purpose
 
-This repository serves as a **technical lab and portfolio project**, demonstrating practical Linux security skills, familiarity with industry-standard tools, and a disciplined command-line workflow using Vim.
+This repository serves as a **technical security portfolio**, demonstrating Linux security tooling, disciplined command-line workflows, and practical security reasoning suitable for entry-level security, SOC, or security engineering roles.
 
 ---
 
 ## License
 
 MIT License
+Zhen Xiao
